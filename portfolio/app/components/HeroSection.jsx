@@ -5,11 +5,28 @@ import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
   return (
-    <section>
-      <div className="grid grid-cols-1 sm:grid-cols-12">
-        <div className="col-span-7 place-self-center text-center ">
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl ">
-            Hi, Im lenson
+    <section className="grid grid-cols-1 lg:grid-cols-12 my-4">
+      <div className="col-span-7 place-self-center place-items-center grid lg:place-items-start">
+      <h1 className="text-white max-w-2xl mb-4 lg:text-6xl text-4xl font-extrabold">
+      <span className="text-transparent text-6xl bg-clip-text bg-gradient-to-r from-blue-400 to-slate-600">
+            Hello, I'm Lenson
+          </span>
+          <br></br>
+          <TypeAnimation
+            sequence={[
+              "Fernandes",
+              1000,
+              "FrontEnd Developer",
+              1000,
+              "NextJs Engineer",
+              1000,
+              "Citrix Expert",
+              1000,
+            ]}
+            wrapper="span"
+            speed={50}
+            repeat={Infinity}
+          />
           </h1>
           <p className="text-[#ADA7BE]">NextJs and react Developer</p>
           <div>
@@ -30,7 +47,7 @@ const HeroSection = () => {
               alt="Hero Image"
               className="rounded-full"
             />
-          </div>
+          
         </div>
       </div>
     </section>
