@@ -28,12 +28,12 @@ const HeroSection = () => {
             repeat={Infinity}
           />
           </h1>
-          <p className="text-[#ADA7BE]">NextJs and react Developer</p>
+          <p className="text-[#ADA7BE] mb-6 textl-lg lg:text-xl">NextJs and React Developer</p>
           <div>
-            <button className="px-6 py-3  rounded-full bg-[#FFC700] text-black ml-4 hover:bg-[#FFC700] hover:text-white transition-all duration-300 ease-in-out  hover:scale-105 hover:rotate-12  ">
+            <button className="px-6 py-3  rounded-full bg-[#FFC700] text-black ml-4 hover:bg-[#FFC700] hover:text-white transition-all duration-300 ease-in-out  hover:scale-105 hover:rotate-12 font-bold text-white ">
               Hire me
             </button>
-            <button className="px-6 py-3  rounded-full bg-[#FFC700] text-black ml-4 hover:bg-[#FFC700] hover:text-white transition-all duration-300 ease-in-out  hover:scale-105 hover:rotate-12  ">
+            <button className="px-6 py-3  rounded-full bg-purple-500 text-black ml-4 hover:bg-[#FFC700] hover:text-white transition-all duration-300 ease-in-out  hover:scale-105 hover:rotate-12 font-bold button-outline  text-white">
               Download CV
             </button>
           </div>
