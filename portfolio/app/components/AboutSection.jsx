@@ -96,11 +96,11 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-white text-base md:text-lg ">
-            I'm Lenson, a skilled web developer with expertise in Next.js,
-            React.js, JavaScript, Tailwind CSS, HTML, and CSS. I've collaborated
+            I&apos;m Lenson, a skilled web developer with expertise in Next.js,
+            React.js, JavaScript, Tailwind CSS, HTML, and CSS. I&apos;ve collaborated
             with top companies like Citrix, Webonise, and AccioJob. Passionate
             about crafting user-friendly web solutions and staying updated with
-            the latest web development trends. Let's build something amazing
+            the latest web development trends. Let&apos;s build something amazing
             together!
           </p>
           <div className="flex flex-row justify-start mt-8">
