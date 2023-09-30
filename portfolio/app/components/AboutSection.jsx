@@ -5,6 +5,7 @@ import TabButton from "@/app/components/TabButton"
 
 
 
+
 const TAB_DATA = [
     {
       title: "Skills",
@@ -54,13 +55,13 @@ const TAB_DATA = [
 
 
   return (
-    <section className="text-white" id="about">
+    <section className="text-white " id="about">
       <div className="gap-8 items-center py-8 px-4 xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-16">
-        <Image src="/images/astro.jpg" width={500} height={500} />
+        <Image src="/images/aboutSection.svg" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-white texxt-base md:text-lg">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <p className="text-white text-base md:text-lg ">
+          Hi, I'm Lenson, a web developer skilled in Next.js, React.js, JavaScript, Tailwind CSS, HTML, and CSS. I graduated from Canara Engineering College and St. Aloysius College and have collaborated with companies like Citrix, Webonise, and AccioJob. I'm passionate about crafting user-friendly web solutions and constantly staying updated with the latest trends in web development. Let's build something amazing together!
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
