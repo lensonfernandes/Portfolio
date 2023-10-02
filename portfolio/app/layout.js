@@ -4,7 +4,7 @@ import './globals.css'
 
 // const inter = Inter({ subsets: ['latin'] })
 
-import { Inter, Roboto_Mono, Poppins, Playfair_Display, Nunito } from 'next/font/google'
+import { Inter, Roboto_Mono, Poppins, Playfair_Display, Nunito, Montserrat } from 'next/font/google'
  
 const inter = Inter({
   subsets: ['latin'],
@@ -44,6 +44,12 @@ const nunito = Nunito({
     display: 'swap',
 })
 
+const montserrat = Montserrat({
+    
+      subsets: ['latin'],
+    display: 'swap',
+})
+
 
 export const metadata = {
   title: 'Create Next App',
@@ -52,8 +58,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={nunito.className}>{children}</body>
+    <html lang="en" 
+    //  className={openSans.className}
+    // className='font-mono'
+   // className={playfairDisplay.className}
+
+    >
+      <body className={montserrat.className}>{children}</body>
     </html>
   )
 }
