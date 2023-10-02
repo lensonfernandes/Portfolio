@@ -16,7 +16,7 @@ const ProjectCard = ({ imgUrl, title, description, content, link }) => {
           background: `url(${imgUrl})`,
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
-         // objectFit: "fill",
+          // objectFit: "fill",
           backgroundPosition: "center",
         }}
       >
@@ -36,7 +36,12 @@ const ProjectCard = ({ imgUrl, title, description, content, link }) => {
         </div>
       </div>
       <div className="bg-[#181818] rounded-b-xl py-6 px-4 text-white">
-        <h5 className="font-lg font-semibold p-2">{title}</h5>
+        <Link
+          href={link}
+          className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white mr-4 group/link"
+        >
+          <h5 className="font-lg font-semibold p-2">{title}</h5>
+        </Link>
         <p className="text-[#ADB7BE] p-2">{description}</p> {content}
       </div>
     </div>
