@@ -37,14 +37,25 @@ const TAB_DATA = [
       //   </li>
       // </ul>
       <ul className="flex flex-wrap gap-2">
-  <li className="bg-blue-500 text-white rounded-full px-3 py-2 text-sm">Next.js</li>
-  <li className="bg-green-500 text-white rounded-full px-3 py-2 text-sm">React.js</li>
-  <li className="bg-yellow-500 text-white rounded-full px-3 py-2 text-sm">JavaScript</li>
-  <li className="bg-indigo-500 text-white rounded-full px-3 py-2 text-sm">Tailwind CSS</li>
-  <li className="bg-pink-500 text-white rounded-full px-3 py-2 text-sm">CSS</li>
-  <li className="bg-purple-500 text-white rounded-full px-3 py-2 text-sm">HTML</li>
-</ul>
-
+        <li className="bg-blue-500 text-white rounded-full px-3 py-2 text-sm">
+          Next.js
+        </li>
+        <li className="bg-green-500 text-white rounded-full px-3 py-2 text-sm">
+          React.js
+        </li>
+        <li className="bg-yellow-500 text-white rounded-full px-3 py-2 text-sm">
+          JavaScript
+        </li>
+        <li className="bg-indigo-500 text-white rounded-full px-3 py-2 text-sm">
+          Tailwind CSS
+        </li>
+        <li className="bg-pink-500 text-white rounded-full px-3 py-2 text-sm">
+          CSS
+        </li>
+        <li className="bg-purple-500 text-white rounded-full px-3 py-2 text-sm">
+          HTML
+        </li>
+      </ul>
     ),
   },
   {
@@ -56,10 +67,13 @@ const TAB_DATA = [
       //   <li>St. Aloysius College</li>
       // </ul>
       <ul className="flex flex-wrap gap-2">
-  <li className="bg-blue-500 text-white rounded-full px-3 py-2 text-sm">Canara Engineering College</li>
-  <li className="bg-green-500 text-white rounded-full px-3 py-2 text-sm">St. Aloysius College</li>
-</ul>
-
+        <li className="bg-blue-500 text-white rounded-full px-3 py-2 text-sm">
+          Canara Engineering College
+        </li>
+        <li className="bg-green-500 text-white rounded-full px-3 py-2 text-sm">
+          St. Aloysius College
+        </li>
+      </ul>
     ),
   },
   {
@@ -71,10 +85,13 @@ const TAB_DATA = [
       //   <li>Citrix Certified Associate - Virtualization</li>
       // </ul>
       <ul className="flex flex-wrap gap-2">
-  <li className="bg-blue-500 text-white rounded-full px-3 py-2 text-sm">Citrix Cloud Fundamentals</li>
-  <li className="bg-green-500 text-white rounded-full px-3 py-2 text-sm">Citrix Certified Associate - Virtualization</li>
-</ul>
-
+        <li className="bg-blue-500 text-white rounded-full px-3 py-2 text-sm">
+          Citrix Cloud Fundamentals
+        </li>
+        <li className="bg-green-500 text-white rounded-full px-3 py-2 text-sm">
+          Citrix Certified Associate - Virtualization
+        </li>
+      </ul>
     ),
   },
 ];
@@ -97,11 +114,11 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-white text-base md:text-lg ">
             I&apos;m Lenson, a skilled web developer with expertise in Next.js,
-            React.js, JavaScript, Tailwind CSS, HTML, and CSS. I&apos;ve collaborated
-            with top companies like Citrix, Webonise, and AccioJob. Passionate
-            about crafting user-friendly web solutions and staying updated with
-            the latest web development trends. Let&apos;s build something amazing
-            together!
+            React.js, JavaScript, Tailwind CSS, HTML, and CSS. I&apos;ve
+            collaborated with top companies like Citrix, Webonise, and AccioJob.
+            Passionate about crafting user-friendly web solutions and staying
+            updated with the latest web development trends. Let&apos;s build
+            something amazing together!
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
