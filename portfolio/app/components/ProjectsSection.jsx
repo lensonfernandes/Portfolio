@@ -11,7 +11,7 @@ const projectsData = [
     title: "Goals",
     description: "Trello Inspired Task Tracker with OpenAI summary",
     image: "/images/goalsScreen.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Web", "Mobile"],
     link: "https://goals-one.vercel.app/",
     content: (
       <ul className="flex flex-wrap gap-2">
@@ -42,7 +42,7 @@ const projectsData = [
     description:
       "Repository of articles which help to solve some common Tech challenges",
     image: "/images/blogScreen.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Web", "Mobile"],
     link: "https://blog-blue-kappa.vercel.app/",
     content: (
       <ul className="flex flex-wrap gap-2">
@@ -73,7 +73,7 @@ const projectsData = [
     description:
       "News fetched from various sources and displayed in a beautiful way",
     image: "/images/newsScreen.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Web", "Mobile"],
     link: "https://news-eta-seven.vercel.app/",
     content: (
       <ul className="flex flex-wrap gap-2">
@@ -105,7 +105,7 @@ const projectsData = [
     description:
       "App to undertake Typing Tests and get Analysis of Performance",
     image: "/images/typeScreen.png",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Web"],
     link: "https://typemasterlen.netlify.app/",
     content: (
       <ul className="flex flex-wrap gap-2">
@@ -136,7 +136,7 @@ const projectsData = [
     description:
       "Budget and Expense tracking app with custom Cards showing the current monetary status with Progress Bar and by saving data in Local Storage.",
     image: "/images/budgetScreen.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Web","Mobile"],
     link: "https://budget-expense-len.netlify.app/",
     content: (
       <ul className="flex flex-wrap gap-2">
@@ -167,7 +167,7 @@ const projectsData = [
     description:
       "Helps find the weather forecast of a City for the next 7 days",
     image: "/images/weatherScreen.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Web", "Mobile"],
     link: "https://weatherlen.netlify.app/",
     content: (
       <ul className="flex flex-wrap gap-2">
